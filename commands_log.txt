@@ -1,2 +1,26 @@
 # ملف لتخزين الأوامر الملتقطة
 [2026-02-22 08:41:36.045474] WiFi-IP: Connected: 127.0.0.1:46208
+[2026-02-22 08:41:39.071015] WiFi: GET / HTTP/1.1
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, image/avif, image/webp, image/apng, */*; q=0.8, application/signed-exchange; v=b3; q=0.7
+Host: localhost:5000
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: ar, en; q=0.9, en-GB; q=0.8, en-US; q=0.7
+Cache-Control: max-age=0
+Referer: https://fuzzy-space-tribble-jj6rqx7rx6vxhq4g.github.dev/
+X-Request-ID: 5990a13b85b851b78eb02eb12c0c3672
+X-Real-IP: 10.241.0.36
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-URI: /
+X-Scheme: https
+sec-fetch-site: same-site
+sec-fetch-mode: navigate
+sec-fetch-dest: document
+sec-ch-ua: "Not(A:Brand";v="8", "Chromium";v="144", "Microsoft Edge";v="144"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+priority: u=0, i
+X-Forwarded-Proto: https
+X-Forwarded-Host: fuzzy-space-tribble-jj6rqx7rx6vxhq4g-5000.app.github.dev
+X-Forwar
