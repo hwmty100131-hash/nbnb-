@@ -72,6 +72,26 @@ def push_to_github():
     origin.push()
     print('[GitHub] Data pushed successfully.')
 
+def git_stash_list():
+    repo = git.Repo(GIT_REPO_PATH)
+    stash_list = repo.git.stash('list')
+    if stash_list:
+        print('[Git Stash] Stash list:')
+        print(stash_list)
+    else:
+        print('[Git Stash] No stashes found.')
+    return stash_list
+
+def git_stash_pop(stash_ref='stash@{0}'):
+    repo = git.Repo(GIT_REPO_PATH)
+    try:
+        result = repo.git.stash('pop', stash_ref)
+        print(f'[Git Stash] Successfully popped {stash_ref}.')
+        return result
+    except git.exc.GitCommandError as e:
+        print(f'[Git Stash] Failed to pop {stash_ref}: {e}')
+        raise
+
 if __name__ == '__main__':
     try:
         listen_wifi_commands()
